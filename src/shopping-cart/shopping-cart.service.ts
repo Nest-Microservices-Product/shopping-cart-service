@@ -11,7 +11,7 @@ export class ShoppinCartService {
 
     private shoppings: Array<ShoppingCart> = [];
 
-    findCart(userId: string): number {
+    private findCart(userId: string): number {
 
         const indexCart = this.shoppings.findIndex(cart => cart.userId === userId);
 
