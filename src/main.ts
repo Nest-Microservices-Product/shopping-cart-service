@@ -13,6 +13,6 @@ async function bootstrap() {
     }
   });
   await app.listen();
-  logger.log('Shopping-cart-service started');
+  logger.log('Shopping-cart-service started :D');
 }
 bootstrap();
